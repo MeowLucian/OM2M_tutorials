@@ -3,7 +3,7 @@ OM2M tools for IOT(Internet Of Things).
 
 This example is using OM2M to implement getting the phone's gps and transmitting to server.
 
-![OM2M_01](images/OM2M_01.png?raw=true)
+![OM2M_01](images/OM2M_01.PNG?raw=true)
 
 ## 虛擬環境硬體調整
 

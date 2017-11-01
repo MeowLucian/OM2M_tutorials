@@ -5,7 +5,11 @@ This example is using OM2M to implement getting the phone's gps and transmitting
 
 ![OM2M_01](images/OM2M_01.PNG?raw=true)
 
-## 虛擬環境硬體調整
+--------------------------
+
+## Virtual Environment Hardware setting
+
+Open VMware as administer
 
 * CPU core
 * Memory
@@ -17,15 +21,15 @@ Edit -> Virtual Network Editor
 
 ![bridge_02](images/bridge_02.png?raw=true)
 
-![bridge_03](images/bridge_03.png?raw=true)
-
-## Ubuntu 環境調整
+## Ubuntu OS setting
 
 * All settings -> Displays -> 1440 x 900
 
-## VMware tools 安裝
+--------------------------
 
-Copy [ VMware Tools 10.1.15-6627299.tar.gz ] to Desktop
+## VMware tools installation
+
+Copy `VMware Tools 10.1.15-6627299.tar.gz` to Desktop
 
 ```
 cd /home
@@ -36,6 +40,8 @@ cd vmware-tools-distrib
 sudo su -c ./vmware-install.pl
 yes
 ```
+
+--------------------------
 
 ## Start OM2M IN-CSE
 
@@ -58,7 +64,7 @@ sh start.sh
 http://localhost:8080/webpage
 
 > username: admin
-
+>
 > password: admin
 
 ![webpage_01](images/webpage_01.png?raw=true)
@@ -72,6 +78,7 @@ Open new terminal window
 ```
 sudo node-red
 ```
+> password: iotclass
 
 http://127.0.0.1:1880/
 
